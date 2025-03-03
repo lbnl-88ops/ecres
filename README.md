@@ -12,7 +12,6 @@ For controlling motion, the ACR74C indexer is used with the configurations (conf
 	 Reducer(s) = Gearbox: Input = 2
 			       Output = 1
 	==> Scaling: 1.27mm = 1 Revolution
-
 - Fault: Enable Positive Hardware Limit Detection and Enable Negative Hardware Limit Detection: On; Deceleration = 5000
 
 | Axis Input | Negative Limit Onboard Input | Positive Limit Onboard Input |
@@ -47,9 +46,9 @@ see docstrings and comments for more info
 Lets user define new variables or load file into program.
 After having defined the variables and the number of scans per axis, the program let's you hit "Run x/y scan" and completes a number of scans automatically.
 
-Load Data Button let's user open a file from a previous scan, and Display the Data
-Reset Button, resets everything except Motor Instance.
-End Program Button clears all axes, i.e. moves all axes back to home limit and then closes the program see docstrings and comments for more info 
+- Load Data Button let's user open a file from a previous scan, and Display the Data
+- Reset Button, resets everything except Motor Instance.
+- End Program Button clears all axes, i.e. moves all axes back to home limit and then closes the program see docstrings and comments for more info 
 
 REQUIRED LIBRARIES:
 - NUMPY
